@@ -1,0 +1,87 @@
+.el-row {
+	text-align: center;
+	.info {
+		display: flex;
+		align-items: center;
+		i {
+			font-size: 40px;
+			// background-color: #f05050;
+			color: white;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		.ml-1 {
+			margin-left: 10px;
+			text-align: left;
+			.mb-1 {
+				margin-bottom: 10px;
+				font-weight: bold;
+				font-size: 24px;
+			}
+			.small {
+				font-size: 14px;
+			}
+		}
+	}
+}
+// 背景颜色
+.bg-danger {
+	background-color: #f05050;
+}
+
+.bg-violet {
+	background-color: #7266ba;
+}
+
+.bg-blue {
+	background-color: #23b7e5;
+}
+
+.bg-green {
+	background-color: #27c24c;
+}
+.bg-primary {
+	background-color: #409eff;
+}
+.bg-warning {
+	background-color: #e6a23c;
+}
+// 第二个统计
+.row {
+	display: flex;
+	// 换行，第一行在上方
+	flex-wrap: wrap;
+	// 两端对齐
+	justify-content: space-between;
+	.desc {
+		display: flex;
+		flex-direction: column;
+		.border {
+			width: 50%;
+			margin-top: 12px;
+			border-bottom: 2px solid #28bb9c;
+		}
+		.infos {
+			display: flex;
+			align-items: ceter;
+			i {
+				font-size: 30px;
+				color: #28bb9c;
+			}
+
+			.ml-1 {
+				margin-left: 10px;
+				text-align: left;
+
+				.mb-1 {
+					font-size: 20px;
+					font-weight: bold;
+				}
+
+				.small {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
